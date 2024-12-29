@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-28T00:05:24.355Z",
+    "end": "2024-12-28T00:05:35.602Z",
+    "duration": 11247,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7af8b60c-173f-44a5-ad10-b3faea0483f1",
+      "title": "",
+      "fullFile": "cypress\\e2e\\login-correto.cy.js",
+      "file": "cypress\\e2e\\login-correto.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "d191a005-f6aa-4029-9ef2-1e2180a5bc6f",
+          "title": "Página de Login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve realizar login com sucesso",
+              "fullTitle": "Página de Login Deve realizar login com sucesso",
+              "timedOut": null,
+              "duration": 7012,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.login('alineafd.dias@gmail.com', 'Aline123#');",
+              "err": {},
+              "uuid": "d1d414ab-9eb7-49c2-92ba-9cfb59379f2c",
+              "parentUUID": "d191a005-f6aa-4029-9ef2-1e2180a5bc6f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d1d414ab-9eb7-49c2-92ba-9cfb59379f2c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7012,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
